@@ -20,11 +20,6 @@ import com.google.code.linkedinapi.client.oauth.LinkedInOAuthService;
 import com.google.code.linkedinapi.client.oauth.LinkedInOAuthServiceFactory;
 import com.google.code.linkedinapi.client.oauth.LinkedInRequestToken;
 
-/**
- * Linkedin dialog
- * 
- * @author Mukesh Kumar Yadav
- */
 public class LinkedinDialog extends Dialog {
 	private ProgressDialog progressDialog = null;
 

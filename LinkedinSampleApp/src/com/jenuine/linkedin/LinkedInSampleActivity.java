@@ -42,9 +42,6 @@ import com.google.code.linkedinapi.schema.Person;
 import com.google.code.linkedinapi.schema.VisibilityType;
 import com.jenuine.linkedin.LinkedinDialog.OnVerifyListener;
 
-/**
- * @author Mukesh Kumar Yadav
- */
 public class LinkedInSampleActivity extends Activity {
 	Button login;
 	Button share;
@@ -93,14 +90,19 @@ public class LinkedInSampleActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				client.postShare(
+			
+				
+				//for image sharing
+			/*	client.postShare(
 						"commentTEXT",
 						"title",
 						"description",
 						"http://androidnews.co.in/wp-content/uploads/2013/11/Android-KitKat-4.4.jpg",
 						"https://lh6.googleusercontent.com/-TET-Db529fE/AAAAAAAAAAI/AAAAAAAAATY/DWZ278Gh4Z0/photo.jpg",
-						visibility);
-				// currentStatus.setText("");
+						visibility);*/
+				
+				
+				// text sharing
 						
 				/*String share = et.getText().toString();
 				if (null != share && !share.equalsIgnoreCase("")) {
@@ -206,7 +208,8 @@ public class LinkedInSampleActivity extends Activity {
 					
 					
 					
-					// client.postNetworkUpdate("Testing by Mukesh!!! LinkedIn wall post from Android app");
+					
+
 					Log.i("LinkedinSample",
 							"ln_access_token: " + accessToken.getToken());
 					Log.i("LinkedinSample",
